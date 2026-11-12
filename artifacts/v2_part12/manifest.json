@@ -1,0 +1,74 @@
+{
+  "run_id": "s6e11_v2_part12_20261111",
+  "competition": "playground-series-s6e11",
+  "source": {
+    "notebook_url": "https://www.kaggle.com/code/goodpjw2008/s6e11-part-12-wide-stack-2nd-lm-lb-0-95298",
+    "notebook_version": 16,
+    "notebook_run_id": 366759696,
+    "notebook_public_score": 0.95298,
+    "artifact_dataset_url": "https://www.kaggle.com/datasets/goodpjw2008/s6e11-fraud-series-artifacts",
+    "lm_dataset_url": "https://www.kaggle.com/datasets/megayak/s6e11-target-first-lm",
+    "license": "CC0-1.0"
+  },
+  "weights": {
+    "wide_lm_stack_test": 0.7,
+    "part9_test": 0.3
+  },
+  "files": {
+    "config": {
+      "path": "configs/v2_part12.json",
+      "sha256": "29950830193457c4609e5412cb9d3a58a5a27f37bf31a32370ab55a3b4a75fea"
+    },
+    "train": {
+      "path": "data/train.csv",
+      "sha256": "87eaa10b8d17a7e4f657b8da1c66242431338bdd8b6ad45861521ac0c0e9fbd5"
+    },
+    "test": {
+      "path": "data/test.csv",
+      "sha256": "10f516959020357b565abaaa4fd25baae97fc2f536d0805695bb7cc15c1660f0"
+    },
+    "sample_submission": {
+      "path": "data/sample_submission.csv",
+      "sha256": "13fc6ed8b73de5329884ec490f2a0b750cf29a7cda772b78cfa0cf486f6f35fa"
+    },
+    "wide_lm_oof": {
+      "path": "public_inputs/part12/wide_lm_stack_nested.npy",
+      "sha256": "69375871698f1adf2b4c666fc7f5180edf00ac6836668353b8e7e4ca43eb2722"
+    },
+    "wide_lm_test": {
+      "path": "public_inputs/part12/wide_lm_stack_test.npy",
+      "sha256": "b37471e6c34a50715284e807d68e15e5f3ad033e72400904f27876b24041f8cc"
+    },
+    "part9_test": {
+      "path": "public_inputs/part12/part9_test.npy",
+      "sha256": "e899205391b8755e82a2ae6b06fb1e026ef29132e4bcdbfad96535d7f5608abd"
+    },
+    "lm_oof": {
+      "path": "public_inputs/part12/lm_oof.npy",
+      "sha256": "181ceac8f3a48fcf9a1702e1222ee13178f0688a28c1aff22c8f881532ea981a"
+    },
+    "members": {
+      "path": "public_inputs/part12/wide_lm_stack_members.csv",
+      "sha256": "d30c825850fe3ab93eb88b82366b60be80b737eef25f3aee40e5b7b3e9e28336"
+    },
+    "submission": {
+      "path": "submissions/s6e11_v2_part12_20261111.csv",
+      "sha256": "f449932b2a9bb8d69f0a3f3a8c227c633ec567e54dfc6f46b0824f00b671fcdf"
+    },
+    "oof_artifact": {
+      "path": "artifacts/v2_part12/oof_wide_lm_stack.npy",
+      "sha256": "67363aeadc81c1e09aeebbc18a6503833b6175a85c164139834cbd7cb76f47b7"
+    },
+    "test_artifact": {
+      "path": "artifacts/v2_part12/test_predictions.npy",
+      "sha256": "46c0fddcb7a45ee5d385579d9a2a0d4c885f67555db2530c99f9a5dad9c43940"
+    }
+  },
+  "environment": {
+    "python": "3.13.13",
+    "numpy": "2.4.6",
+    "pandas": "3.0.3",
+    "scipy": "1.17.1",
+    "scikit_learn": "1.8.0"
+  }
+}

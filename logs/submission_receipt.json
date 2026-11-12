@@ -1,0 +1,15 @@
+{
+  "competition": "playground-series-s6e11",
+  "run_id": "s6e11_v2_part12_20261111",
+  "submission_ref": 58229122,
+  "file_name": "s6e11_v2_part12_20261111.csv",
+  "file_sha256": "f449932b2a9bb8d69f0a3f3a8c227c633ec567e54dfc6f46b0824f00b671fcdf",
+  "submitted_at_utc": "2026-11-11T07:12:43.303000",
+  "description": "v2: Part12 201-member same-fold OOF wide stack + second target-first LM; fixed 0.7/0.3 rank blend; exact hash reproduction.",
+  "status": "COMPLETE",
+  "public_score": 0.95298,
+  "private_score": null,
+  "previous_public_score": 0.95222,
+  "public_score_delta": 0.00076,
+  "submissions_remaining_today_after_submit": 9
+}

@@ -1,0 +1,30 @@
+.DS_Store
+.env
+.venv/
+__pycache__/
+*.py[cod]
+
+# Credentials
+kaggle.json
+access_token
+*.key
+*.pem
+
+# Kaggle competition data and downloaded public predictions
+data/
+derived/
+public_inputs/
+
+# Generated arrays and submissions
+artifacts/**/*.npy
+submissions/
+submission*.csv
+logs/*.jsonl
+
+# Legacy local experiment entrypoint
+make_submission.py
+
+# Local tooling
+.idea/
+.vscode/
+catboost_info/

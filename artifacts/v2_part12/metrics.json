@@ -1,0 +1,27 @@
+{
+  "run_id": "s6e11_v2_part12_20261111",
+  "created_at_utc": "2026-11-11T13:43:24.453084+00:00",
+  "wide_lm_stack_oof_auc": 0.9525651344492125,
+  "lm_member_oof_auc": 0.9504282674228537,
+  "source_reported_final_blend_nested_auc": 0.952527,
+  "source_reported_final_blend_fold_auc": [
+    0.9517,
+    0.95264,
+    0.95724,
+    0.95278,
+    0.94828
+  ],
+  "wide_part9_test_spearman": 0.9902981473021875,
+  "member_count": 201,
+  "fold_counts": {
+    "0": 139992,
+    "1": 139992,
+    "2": 139992,
+    "3": 139992,
+    "4": 139992
+  },
+  "source_rebuild_exact_hash": true,
+  "submission_rows": 299984,
+  "prediction_min": 3.3335111205930984e-06,
+  "prediction_max": 1.0
+}

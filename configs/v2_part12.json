@@ -1,0 +1,46 @@
+{
+  "run_id": "s6e11_v2_part12_20261111",
+  "competition": "playground-series-s6e11",
+  "target": "is_fraud",
+  "weights": {
+    "wide_lm_stack_test": 0.7,
+    "part9_test": 0.3
+  },
+  "paths": {
+    "train": "data/train.csv",
+    "test": "data/test.csv",
+    "sample_submission": "data/sample_submission.csv",
+    "wide_lm_oof": "public_inputs/part12/wide_lm_stack_nested.npy",
+    "wide_lm_test": "public_inputs/part12/wide_lm_stack_test.npy",
+    "part9_test": "public_inputs/part12/part9_test.npy",
+    "lm_oof": "public_inputs/part12/lm_oof.npy",
+    "members": "public_inputs/part12/wide_lm_stack_members.csv",
+    "artifact_dir": "artifacts/v2_part12",
+    "submission": "submissions/s6e11_v2_part12_20261111.csv",
+    "metrics_log": "logs/s6e11_v2_part12_20261111_metrics.jsonl"
+  },
+  "expected_sha256": {
+    "wide_lm_oof": "69375871698f1adf2b4c666fc7f5180edf00ac6836668353b8e7e4ca43eb2722",
+    "wide_lm_test": "b37471e6c34a50715284e807d68e15e5f3ad033e72400904f27876b24041f8cc",
+    "part9_test": "e899205391b8755e82a2ae6b06fb1e026ef29132e4bcdbfad96535d7f5608abd",
+    "lm_oof": "181ceac8f3a48fcf9a1702e1222ee13178f0688a28c1aff22c8f881532ea981a",
+    "members": "d30c825850fe3ab93eb88b82366b60be80b737eef25f3aee40e5b7b3e9e28336"
+  },
+  "expected_submission_sha256": "f449932b2a9bb8d69f0a3f3a8c227c633ec567e54dfc6f46b0824f00b671fcdf",
+  "validation": {
+    "strategy": "StratifiedKFold",
+    "n_splits": 5,
+    "seed": 42,
+    "source_reported_final_blend_nested_auc": 0.952527,
+    "source_reported_final_blend_fold_auc": [0.95170, 0.95264, 0.95724, 0.95278, 0.94828]
+  },
+  "source": {
+    "notebook_url": "https://www.kaggle.com/code/goodpjw2008/s6e11-part-12-wide-stack-2nd-lm-lb-0-95298",
+    "notebook_version": 16,
+    "notebook_run_id": 366759696,
+    "notebook_public_score": 0.95298,
+    "artifact_dataset_url": "https://www.kaggle.com/datasets/goodpjw2008/s6e11-fraud-series-artifacts",
+    "lm_dataset_url": "https://www.kaggle.com/datasets/megayak/s6e11-target-first-lm",
+    "license": "CC0-1.0"
+  }
+}
